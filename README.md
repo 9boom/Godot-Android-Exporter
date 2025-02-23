@@ -52,7 +52,7 @@ chmod +x setup.sh
 3. If installation is successful, you should see output similar to the following:
     
 
-![[[https://raw.githubusercontent.com/9boom/Godot-Android-Exporter/refs/heads/main/screenshots/Screenshot_20250223-115612.png]]
+![Alt Text](https://raw.githubusercontent.com/9boom/Godot-Android-Exporter/main/screenshots/Screenshot_20250223-115612.png)
 
 ---
 
