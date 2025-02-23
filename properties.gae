@@ -1,0 +1,11 @@
+project_zip_path=example_assets.zip
+app_name=App
+version_name=1.0
+version_code=10
+package_name=com.example.game
+minSdkVersion=21
+targetSdkVersion=34
+icon_path=default_icon.png
+keystone_path=default_keystore.jks
+keystone_user=nineboom
+keystone_pass=12345678
