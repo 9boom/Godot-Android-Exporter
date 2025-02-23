@@ -1,7 +1,4 @@
-# Godot-Android-Exporter
-### For converting the Godot project to an Android APK installer file for those who use the mobile version of Godot Editor.
-=======
-# Android APK Customization Toolkit
+# Godot Android Exporter
 
 For converting a Godot project into an Android APK installer file for those using the mobile version of the Godot Editor.
 
