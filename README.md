@@ -71,7 +71,8 @@ chmod +x setup.sh
 8. Choose a save location and click **Save**.
     
 
-![[Screenshot_20250223-142618_1.png]] ![[Screenshot_20250223-142809_2.png]]
+![Alt Text](https://raw.githubusercontent.com/9boom/Godot-Android-Exporter/main/screenshots/Screenshot_20250223-142618_1.png) 
+![Alt Text](https://raw.githubusercontent.com/9boom/Godot-Android-Exporter/main/screenshots/Screenshot_20250223-142809_2.png)
 
 9. Edit **properties.gae** in **Godot-Android-Exporter** to configure your app settings.
     
@@ -80,7 +81,7 @@ chmod +x setup.sh
     - Other variables will use default values if not modified.
         
 
-![[Screenshot_20250223-151252.png]]
+![Alt Text](https://raw.githubusercontent.com/9boom/Godot-Android-Exporter/main/screenshots/Screenshot_20250223-151252.png)
 
 10. Run the following command to generate the APK:
     
@@ -92,7 +93,7 @@ python3 gae10.py
 11. Wait for the process to complete. Once finished, you will find the output file in the same directory as **Godot-Android-Exporter**.
     
 
-![[Screenshot_20250223-152710.png]]
+![Alt Text](https://raw.githubusercontent.com/9boom/Godot-Android-Exporter/main/screenshots/Screenshot_20250223-152710.png)
 
 ---
 
