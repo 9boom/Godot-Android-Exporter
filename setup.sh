@@ -18,7 +18,7 @@ if ! command -v pkg >/dev/null 2>&1; then
 fi
 
 echo -e "${BLUE}===== Starting Termux Setup =====${NC}"
-
+termux-setup-storage
 # Update package lists and upgrade all installed packages
 echo -e "${YELLOW}[INFO] Updating package lists...${NC}"
 pkg update && pkg upgrade -y
