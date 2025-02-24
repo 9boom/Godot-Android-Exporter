@@ -11,19 +11,6 @@ For converting a Godot project into an Android APK installer file for those usin
     ```
     pkg update -y && pkg upgrade -y
     ```
-    - If while running it asks you something like this. Just press **'Y'** and enter
-    ```bash
-    'Configuration file /data/data/com.termux/files/usr/etc/tls/openssl.cnf'
-     ==> File on system created by you or by a script.
-     ==> File also in package provided by package maintainer.
-   What would you like to do about it ?  Your options are:
-    Y or I  : install the package maintainer's version
-    N or O  : keep your currently-installed version
-      D     : show the differences between the versions
-      Z     : start a shell to examine the situation
-    The default action is to keep your current version.
-    *** openssl.cnf (Y/I/N/O/D/Z) [default=N] ?
-    ```
     
 - 📦 Install **git**:
     
@@ -122,6 +109,20 @@ If you are new to Linux commands, follow these detailed steps to ensure a smooth
     
     ```
     pkg update && pkg upgrade -y
+    ```
+
+   - If while running it asks you something like this. Just press **'Y'** and enter
+    ```bash
+    'Configuration file /data/data/com.termux/files/usr/etc/tls/openssl.cnf'
+     ==> File on system created by you or by a script.
+     ==> File also in package provided by package maintainer.
+   What would you like to do about it ?  Your options are:
+    Y or I  : install the package maintainer's version
+    N or O  : keep your currently-installed version
+      D     : show the differences between the versions
+      Z     : start a shell to examine the situation
+    The default action is to keep your current version.
+    *** openssl.cnf (Y/I/N/O/D/Z) [default=N] ?
     ```
     
 3. Install `git` to download the required files:
