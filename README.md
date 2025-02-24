@@ -9,7 +9,7 @@ For converting a Godot project into an Android APK installer file for those usin
 - 📦 Install basic packages in Termux:
     
     ```
-    pkg update && pkg upgrade -y
+    pkg update -y && pkg upgrade -y -o Dpkg::Options::="--force-confnew"
     ```
     
 - 📦 Install **git**:
