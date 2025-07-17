@@ -6,6 +6,18 @@ package_name=com.example.game
 minSdkVersion=21
 targetSdkVersion=34
 icon_path=default_icon.png
-keystone_path=default_keystore.jks
-keystone_user=nineboom
-keystone_pass=12345678
+keystore_path=default_keystore.jks
+keystore_user=nineboom
+keystore_pass=12345678
+# DO NOT REMOVE THESE DEFAULT ANDROID APP PERMISSIONS
+
+# If you're wondering why I need these permissions,
+# it's because in version 1.0 I embedded them in
+# the code, since GAE didn't support adding
+# permissions at that time. Now I don't want to
+# restructure the app template, so I need these
+# permissions to prevent the application from crashing.
+
+# Write your additional permissions at the end of this
+permissions=android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE
+######################################################
