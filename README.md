@@ -87,7 +87,7 @@ chmod +x setup.sh
     
 
 ```
-python3 gae10.py
+python3 gae20.py
 ```
 
 11. Wait for the process to complete. Once finished, you will find the output file in the same directory as **Godot-Android-Exporter**.
