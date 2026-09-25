@@ -2,6 +2,9 @@
 
 For converting a Godot project into an Android APK installer file for those using the mobile version of the Godot Editor.
 
+## Overview Exporter Flow
+![Alt Text](https://raw.githubusercontent.com/9boom/Godot-Android-Exporter/main/screenshots/godot_android_exporter_flow_v5.png) 
+
 ## ⚙️ System Requirements
 
 - 📱 **Termux**: A Linux environment for Android ([Download from F-Droid](https://f-droid.org/repo/com.termux_118.apk))
